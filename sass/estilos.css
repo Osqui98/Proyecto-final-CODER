@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 20px;
+}
+
+body {
+  background-color: orange;
+}
+
+.header {
+  background-color: #1E3163;
+}
+
+.nav__logo {
+  height: auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #1E3163;
+}
+
+.atu__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  background-color: #1E3163;
+  color: #fff;
+  font-size: 35px;
+  line-height: 28px;
+}
+
+.logosCentrados {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+center {
+  width: 400px;
+  height: 100px;
+}
+
+.logosCentrados center {
+  background-color: #1E3163;
+  padding: 10px;
+}
+
+.nav {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 992px;
+  margin: 0 auto !important;
+}
+
+.nav__links a {
+  background-color: #2D46B9;
+}
+
+.nav__link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.nav__links {
+  font-size: 18px;
+  margin: 0 auto !important;
+  padding: 2px !important;
+  margin-top: 20px !important;
+  line-height: 80px !important;
+  text-transform: uppercase;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.nav__enlace {
+  padding: 8px 12px !important;
+  border-radius: 6px;
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.nav__menu > li {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.nav__menu > li > a {
+  display: block;
+  text-decoration: none;
+}
+
+.nav__menu li a:hover {
+  color: #ce7d35;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.footer__frase {
+  width: 100%;
+  background: #1E3163;
+  padding: 8px 100px;
+  text-align: center;
+  color: #999;
+}
+/*# sourceMappingURL=estilos.css.map */
