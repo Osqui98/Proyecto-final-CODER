@@ -62,7 +62,8 @@ center{
 }
 .navMenu{
     display: flex!important; 
-    list-style: none;   
+    list-style: none;
+    width: 100%;   
 }
 .navMenuItem{
     font-size: 18px;
@@ -434,11 +435,11 @@ label,textarea,.btnEnviar{
     vertical-align: top;
     height: 300px;
     object-fit: contain;
-    transition: transform 0.5;
+    transition: all 3s;
 }
 .galeria a:hover img{
-    filter:blur(1.5px);
-    transform: rotate(10deg) scale(1,1);
+    width: 1000px;
+    filter:grayscale(50)
 }
 
 @media (min-width:1150px){
