@@ -168,7 +168,7 @@ iframe{
 
 /* /iframe */
 .hrMedium{ 
-    width: 500px !important;
+    width: 500px ;
     height: 4px !important;
     margin: auto;
     border-style: none !important;
